@@ -1,7 +1,14 @@
 {
  margin: 50%;
+ padding:;
+box-sizing:border-box;
 
 
 }
-
-*logo
+*hero{
+    height: auto;
+    width: auto;
+    background-color: aqua;
+    text-decoration: blueviolet;
+    text-align: center;
+}
