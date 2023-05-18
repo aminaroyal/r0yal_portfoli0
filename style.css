@@ -1,14 +1,36 @@
 {
  margin: 50%;
- padding:;
+ padding:0;
 box-sizing:border-box;
-
-
+font-family:san-serif;
 }
-*hero{
+
+h1{
     height: auto;
     width: auto;
     background-color: aqua;
-    text-decoration: blueviolet;
+    text-decoration: none;
     text-align: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.nav ul li {
+    display:inline-block ;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration:none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-weight: lighter;
 }
