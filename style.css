@@ -3,6 +3,7 @@
  padding:0;
 box-sizing:border-box;
 font-family:san-serif;
+
 }
 
 h1{
@@ -11,7 +12,7 @@ h1{
     background-color: aqua;
     text-decoration: none;
     text-align: center;
-}
+   
 p{
     display: flex;
     justify-content: center;
@@ -21,7 +22,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column-reverse;
+    background-color: black;
     
 }
 .nav ul li {
@@ -29,9 +30,21 @@ p{
     justify-content: space-between;
     padding: 10px;
     text-decoration:none;
+    text-align: center;
+    justify-content:flex-end;
 }
 
 .nav ul li a{
-    text-decoration: none;
+    text-decoration:solid;
     font-weight: lighter;
+   text-align: left;
+   background-color: turquoise;
 }
+h2{
+    text-decoration: brown;
+    text-align: center;
+    border-image: round;
+    border-radius: 100%;
+}
+
+    }
